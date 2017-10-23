@@ -3,7 +3,6 @@ import javax.swing.JOptionPane;
 class NumberStack{
 	final int STACK_INIT_SIZE = 10;
 	final int STACKINCREASE = 5;
-	
 	private double[] Array; // 数字栈
 	private int ptr = 0;    //指向栈顶元素的下一个元素的数组下标
 	
